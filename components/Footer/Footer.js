@@ -9,11 +9,11 @@ const DATA = [
         title: "Template",
         items: [
             {
-                label: "Features",
+                label: "Products",
                 href: "#features"
             },
             {
-                label: "Testimonials",
+                label: "Customers",
                 href: "#testimonials"
             },
             {
@@ -27,22 +27,22 @@ const DATA = [
         items: [
             {
                 label: "About",
-                href: "https://github.com/christian-luntok/",
+                href: "https://google.com/",
                 target: "_blank"
             },
             {
                 label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                href: "https://google.com/",
                 target: "_blank"
             },
             {
                 label: "Instagram",
-                href: "https://github.com/christian-luntok/",
+                href: "https://google.com",
                 target: "_blank"
             },
             {
                 label: "Facebook",
-                href: "https://github.com/christian-luntok/",
+                href: "https://google.com",
                 target: "_blank"
             }
         ]

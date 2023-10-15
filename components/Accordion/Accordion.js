@@ -7,37 +7,38 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "Who are we",
+        title: "Who are we?",
         isOpen: true,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            "We provide comprehensive solutions for all your CNC machining needs. Our team of experts is dedicated to delivering the highest quality products and services, ensuring that you get the best value for your money."
     },
     {
         id: uuid(),
-        title: "How we Work",
+        title: "How we Work?",
         isOpen: false,
         content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+            "First we will understand your requirements and then we will provide you with a quote. Once you approve the quote, we will start working on your project and deliver it to you within the stipulated time frame."
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
-        isOpen: false,
-        content: "No, this is free."
-    },
-    {
-        id: uuid(),
-        title: "What will I get when I buy this template?",
+        title: "How is the quality of your products?",
         isOpen: false,
         content:
-            "When you purchase this template, you will receive a customizable NextJS landing page template built with TailwindCSS, allowing you to create a personalized and visually stunning landing page for your Notion workspace. The template comes with the necessary setup and documentation to help you get started quickly."
+            "Dont worry, we are working with best in the business and will provide you with the best quality products."
     },
     {
         id: uuid(),
-        title: "Where can I ask more questions about this template?",
+        title: "How can i reach you?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "Its very simple, Send us a email with your requirements and we will get back to you with a quote."
+    },
+    {
+        id: uuid(),
+        title: "Where can I ask more questions?",
+        isOpen: false,
+        content:
+            "You can reach us at our email address and we can discuss your requirements in detail."
     }
 ];
 

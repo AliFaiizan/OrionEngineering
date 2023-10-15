@@ -16,6 +16,7 @@ import {
     CardImage,
     Card
 } from "@components/Card";
+import Contact from "@components/Contact/contact";
 
 export default function Home() {
     return (
@@ -45,11 +46,11 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to Orion Engineering, the
-                                    ultimate Engineering Solutions provider.
-                                    We&apos;ve got some awesome features lined
-                                    up to make your nutrition journey a piece of
-                                    cake (pun intended). Check them out:
+                                    Welcome to a realm of unparalleled precision
+                                    and innovation in CNC lines. Our
+                                    cutting-edge technology and expert
+                                    craftsmanship converge to redefine the
+                                    limits of machining excellence.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -61,65 +62,61 @@ export default function Home() {
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
+                                <BadgeMessage>More Products</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                Our Controll Units
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Intelligent Climate Control: Elevate Comfort
+                                    with Our Advanced AC and Fan Control Units.
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features4.png"
+                                            src="/product3.png"
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            Infinity Ecosystem
                                         </CardHeader>
                                         <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
+                                            A digital controller designed to
+                                            equip AC Infinity devices with smart
+                                            controls to produce the optimal
+                                            environment.Go beyond the basic on
+                                            or off; trigger and set dynamic
+                                            programs that adjust fan speed and
+                                            light intensity in response to
+                                            changing temperature and humidity.
                                         </p>
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features3.png"
+                                            src="/product4.png"
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+                                            Controll Division
                                         </CardHeader>
                                         <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
+                                            We’re committed to offering you the
+                                            latest in HVAC technology.You’ll
+                                            enjoy lower utility bills because
+                                            your system is using far less energy
+                                            than conventional HVAC, while still
+                                            enjoying peak indoor comfort from
+                                            technology that works smarter, not
+                                            harder.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -135,11 +132,11 @@ export default function Home() {
                             className="benefits"
                         >
                             <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
+                                <BadgeMessage>Our Customers</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle className="" type="default">
-                                This is what our customers have to say about Us
+                                These are Our Top Customers
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -161,6 +158,16 @@ export default function Home() {
                                 you need:
                             </PageTitle>
                             <Accordion />
+                            <BadgeGroup alignment="center">
+                                <BadgeMessage>Contact</BadgeMessage>
+                            </BadgeGroup>
+                            <PageTitle
+                                className="text-center mx-auto"
+                                type="default"
+                            >
+                                Contact Us
+                            </PageTitle>
+                            <Contact />
                         </SectionContainer>
                     </MotionBTTContainer>
                 </SectionContainer>

@@ -5,11 +5,11 @@ import { useRouter } from "next/router";
 
 const navigation = [
     { name: "Products", to: "#features", href: "/#features" },
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
+    { name: "Customers", to: "#testimonials", href: "/#testimonials" },
     { name: "FAQ?", to: "#faq", href: "/#faq" },
     {
         name: "Contact",
-        href: "https://cjluntok.com/",
+        href: "#contact",
         isArrow: true,
         target: "_blank"
     }

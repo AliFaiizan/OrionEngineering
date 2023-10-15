@@ -6,17 +6,17 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "CNC Circuit Board",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Revolutionizing Machinery: Redefining How Machines Operate for Unparalleled Efficiency and Performance.",
         align: "right",
         image: "/product1.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "CNC Designs",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            " Each operation is executed with meticulous detail, ensuring the highest quality output for industries that demand nothing but the best.",
         align: "left",
         image: "/product2.jpg"
     }
