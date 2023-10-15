@@ -16,7 +16,7 @@ import {
     CardImage,
     Card
 } from "@components/Card";
-import Contact from "@components/Contact/contact";
+import Contact from "@components/Contact/Contact";
 
 export default function Home() {
     return (

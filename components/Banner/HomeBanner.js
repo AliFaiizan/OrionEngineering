@@ -37,14 +37,12 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <a
-                                role="button"
+                            <Button
+                                className="btn btn--secondary lemonsqueezy-button"
                                 href="#features"
-                                className="btn btn--secondary lemonsqueezy-button ml-4"
                             >
                                 Products
-                                <Icon icon="material-symbols:arrow-forward-rounded" />
-                            </a>
+                            </Button>
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>

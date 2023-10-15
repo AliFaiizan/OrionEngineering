@@ -1,29 +1,48 @@
-import React from "react";
-import { SectionContainer } from "@components/Section";
+import { useState } from "react";
+import { ButtonGroup, Button } from "@components/Button";
 
-function Contact() {
+export default function Contact() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+        // You can add your own logic here to handle the form submission
+    };
+
     return (
-        <SectionContainer className="accordion--container my-16 drop-shadow-xl max-w-3xl mx-auto offset-y-0 offset-x-8">
-            <form>
-                <label>
-                    Name:
-                    <input type="text" name="name" />
-                </label>
-                <br />
-                <label>
-                    Email:
-                    <input type="email" name="email" />
-                </label>
-                <br />
-                <label>
-                    Message:
-                    <textarea name="message" />
-                </label>
-                <br />
-                <button type="submit">Submit</button>
-            </form>
-        </SectionContainer>
+        <form
+            onSubmit={handleSubmit}
+            className="accordion-item--container border border-neutral-200 bg-white overflow-hidden p-5 flex  flex-col gap-4"
+        >
+            <input
+                type="text"
+                placeholder="Name"
+                value={name}
+                className="border border-neutral-200 rounded-md p-2"
+                onChange={(e) => setName(e.target.value)}
+            />
+
+            <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                className="border border-neutral-200 rounded-md p-2"
+                onChange={(e) => setEmail(e.target.value)}
+            />
+            <textarea
+                value={message}
+                placeholder="Message"
+                className="border border-neutral-200 rounded-md p-2"
+                onChange={(e) => setMessage(e.target.value)}
+            />
+            <ButtonGroup alignment="center">
+                <Button className="btn btn--secondary lemonsqueezy-button">
+                    Submit
+                </Button>
+            </ButtonGroup>
+        </form>
     );
 }
-
-export default Contact;
