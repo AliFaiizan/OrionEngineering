@@ -22,8 +22,9 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - Avenue Labs landing page template 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                title="Orion Engineering - Ultimate Engineering Solutions 🚀"
+                description=" Welcome to Orion Engineering, where engineering
+                        excellence meets aesthetic brilliance."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -36,7 +37,7 @@ export default function Home() {
                     >
                         <SectionContainer id="features" className="features">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Products</BadgeMessage>
+                                <BadgeMessage>CNC</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
@@ -158,6 +159,8 @@ export default function Home() {
                                 you need:
                             </PageTitle>
                             <Accordion />
+                        </SectionContainer>
+                        <SectionContainer id="contact" className="contact">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Contact</BadgeMessage>
                             </BadgeGroup>

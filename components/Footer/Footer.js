@@ -1,12 +1,10 @@
 import { SectionContainer } from "@components/Section";
 import Link from "next/link";
 import Image from "next/image";
-import { ButtonGroup } from "@components/Button";
-import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Company",
         items: [
             {
                 label: "Products",
@@ -19,30 +17,29 @@ const DATA = [
             {
                 label: "FAQ",
                 href: "#faq"
+            },
+            {
+                label: "Contact",
+                href: "#contact"
             }
         ]
     },
     {
-        title: "Company",
+        title: "Social Profiles",
         items: [
             {
-                label: "About",
-                href: "https://google.com/",
-                target: "_blank"
-            },
-            {
-                label: "Twitter",
-                href: "https://google.com/",
+                label: "X",
+                href: "https://X.com/",
                 target: "_blank"
             },
             {
                 label: "Instagram",
-                href: "https://google.com",
+                href: "https://instagram.com",
                 target: "_blank"
             },
             {
                 label: "Facebook",
-                href: "https://google.com",
+                href: "https://facebook.com",
                 target: "_blank"
             }
         ]
@@ -60,10 +57,10 @@ export const Footer = () => {
                 <div className="footer--content-container py-16">
                     <div className="footer-links mb-12 grid grid-cols-2 gap-8 md:mb-16 md:grid-cols-8 lg:grid-cols-12">
                         <div className="col-span-6">
-                            <div className="footer--logo grid gap-8">
+                            <div className="footer--logo flex flex-row">
                                 <Link href="/">
                                     <Image
-                                        src="/nutritrack.svg"
+                                        src="/logo.png"
                                         alt="logo"
                                         className="h-10 w-auto"
                                         height="25"
@@ -71,6 +68,10 @@ export const Footer = () => {
                                         priority
                                     />
                                 </Link>
+                                <div className="flex items-center">
+                                    <p class="font-bold">Orion Engineering</p>
+                                </div>
+
                                 {/* Get Template button; remove if not used */}
                                 {/* <ButtonGroup alignment="left">
                                     <a

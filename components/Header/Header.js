@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SectionContainer } from "@components/Section";
 import { Nav } from "@components/Nav";
+import { PageTitle } from "@components/Title";
 import { ButtonGroup, Button } from "@components/Button";
 import { Icon } from "@iconify/react";
 
@@ -16,15 +17,18 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/logo.png"
                                 alt="logo"
-                                className="h-6 w-auto"
-                                height="24"
+                                className="h-10 w-auto "
+                                height="50"
                                 width="100"
                                 priority
                             />
                         </Link>
                     </h1>
+                </div>
+                <div class="flex justify-center items-center">
+                    <p class="font-bold">Orion Engineering</p>
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     <Nav />

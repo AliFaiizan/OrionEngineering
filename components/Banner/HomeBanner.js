@@ -35,19 +35,13 @@ export const HomeBanner = () => {
                             and functionality{" "}
                         </p>
                     </Content>
-                    <div className="mt-6 mb-16 text-center">
-                        <ButtonGroup alignment="center">
-                            <Button
-                                className="btn btn--secondary lemonsqueezy-button"
-                                href="#features"
-                            >
-                                Products
-                            </Button>
-                        </ButtonGroup>
-                    </div>
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
+                    <BadgeGroup alignment="center" className="mt-10">
+                        <BadgeMessage>Ceiling Fans</BadgeMessage>
+                        <BadgeIcon icon="twemoji:waving-hand" />
+                    </BadgeGroup>
                     <div className="page-banner--image">
                         <Image
                             src="/fan2.png"

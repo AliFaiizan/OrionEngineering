@@ -7,12 +7,7 @@ const navigation = [
     { name: "Products", to: "#features", href: "/#features" },
     { name: "Customers", to: "#testimonials", href: "/#testimonials" },
     { name: "FAQ?", to: "#faq", href: "/#faq" },
-    {
-        name: "Contact",
-        href: "#contact",
-        isArrow: true,
-        target: "_blank"
-    }
+    { name: "Contact", to: "#contact", href: "/#contact", isArrow: true }
 ];
 
 export const Nav = () => {
